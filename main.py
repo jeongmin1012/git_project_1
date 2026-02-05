@@ -19,6 +19,6 @@ def calculator():
         except Exception as e:
             print("오류:", e)
     else:
-        print("올바르지 않은 연산자입니다.")
+        print("Invalid operator.")
 if __name__ == "__main__":
     calculator()
